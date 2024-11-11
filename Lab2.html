@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свідерський Я.П. ІМ-23</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .row-1 {
+            background-color: #938f8f;
+            color: #0f0f0f;
+        }
+
+        .row-2 {
+            background-color: #f5f593;
+            color: #030303;
+        }
+
+        .row-1:hover {
+            background-color: #f5f593;
+            color: #0f0f0f;
+        }
+
+        .row-2:hover {
+            background-color: #938f8f;
+            color: #030303;
+        }
+
+        .row-3 td {
+            height: 30px;
+        }
+
+        table {
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid black;
+            word-wrap: break-word;
+        }
+
+        td[rowspan], td[colspan] {
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+
+<table border="1">
+    <tr class="row-1">
+        <td rowspan="2">Свідерський</td>
+        <td>Ярослав</td>
+        <td rowspan="2" colspan="2">Петрович</td>
+    </tr>
+    <tr class="row-2">
+        <td>ІМ-23 ЛР-2 Варіант-3</td>
+    </tr>
+    <tr class="row-3">
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td colspan="2">&nbsp;</td>
+    </tr>
+</table>
+
+<div class="figure-position">
+    <div class="square blue"></div>
+    <div class="square yellow"></div>
+    <div class="square red"></div>
+</div>
+
+<div class="figure-transform">
+    <div class="square blue"></div>
+    <div class="square yellow"></div>
+    <div class="square red"></div>
+</div>
+
+</body>
+</html>

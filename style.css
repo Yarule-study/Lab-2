@@ -1,0 +1,70 @@
+.square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.blue {
+    background-color: #b8cce4;
+}
+
+.yellow {
+    background-color: #ffff00;
+}
+
+.red {
+    background-color: #cd0067;
+}
+
+.figure-position {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.figure-position .blue {
+    top: -3%;
+    left: 25%;
+    transform: rotate(45deg);
+}
+
+.figure-position .yellow {
+    bottom: 0;
+    right: 56%;
+    transform: rotate(15deg);
+}
+
+.figure-position .red {
+    bottom: 0;
+    left: 57%;
+    transform: rotate(75deg);
+}
+
+.figure-transform {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top: 75px;
+    margin-left: 150px;
+}
+
+.figure-transform .blue {
+    transform: translate(0, -30%) rotate(45deg);
+}
+
+.figure-transform .yellow {
+    transform: translate(-64px, 72%) rotate(15deg);
+}
+
+.figure-transform .red {
+    transform: translate(64px, 72%) rotate(75deg);
+}
+
+.figure-position, .figure-transform {
+    display: inline-block;
+    vertical-align: top;
+}
